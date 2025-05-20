@@ -5,6 +5,35 @@ let n1: number = 0;
 let n2: number = 0;
 let opcao: string = ``;
 
+function soma (): void {
+    n1=parseInt(teclado(`Digite o primeiro número: `));
+    n2=parseInt(teclado(`Digite o segundo número: `));
+    console.log(n1+n2);
+    menu();
+}
+
+function subtracao (): void {
+    n1=parseInt(teclado(`Digite o primeiro número: `));
+    n2=parseInt(teclado(`Digite o segundo número: `));
+    console.log(n1-n2);
+    menu();
+}
+
+function multiplicacao (): void {
+    n1=parseInt(teclado(`Digite o primeiro número: `));
+    n2=parseInt(teclado(`Digite o segundo número: `));
+    console.log(n1*n2);
+    menu();
+}
+
+function divisao (): void {
+    n1=parseInt(teclado(`Digite o primeiro número: `));
+    n2=parseInt(teclado(`Digite o segundo número: `));
+    console.log(n1/n2);
+    menu();
+}
+
+
 function sair(): void{
     console.clear();
     console.log(`Fim de programa...`);

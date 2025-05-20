@@ -34,6 +34,7 @@ console.log(retorno);
 console.log(`Fim de programa!!`);*/
 
 // Função sem parametro () e COM retorno
+
 function soma (): number{
     let n1: number = parseInt(teclado(`Digite o primeiro número: `));
     let n2: number = parseInt(teclado(`Digite o segundo número: `));
@@ -47,10 +48,6 @@ let retorno: number = soma();
 console.log(retorno); 
 
 console.log(`Fim de programa!!`);
-
-
-
-
 
 
 
